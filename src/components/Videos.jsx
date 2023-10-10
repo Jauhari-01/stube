@@ -4,8 +4,7 @@ import {ChannelCard , VideoCard} from './';
 
 const Videos = ({videos})=>{
     return(
-<Stack direction="row" flexWrap='wrap' justifyContent="space-between" gap={2} sx={{
-            padding: '16px 82px 10px 38px',}}>
+<Stack direction="row" flexWrap='wrap' justifyContent="space-between" gap={2} sx={{}}>
 
             {
                 videos.map((item,index)=>(
